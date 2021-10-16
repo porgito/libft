@@ -6,13 +6,13 @@
 /*   By: jlaurent <jlaurent@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/11 13:48:10 by jlaurent          #+#    #+#             */
-/*   Updated: 2021/10/13 16:12:18 by jlaurent         ###   ########.fr       */
+/*   Updated: 2021/10/16 15:25:50 by jlaurent         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
+#include "libft.h" 
 
-int	*ft_memset(void *str, int c, size_t n)
+void	*ft_memset(void *str, int c, size_t n)
 {
 	unsigned long	i;
 	char			*s;

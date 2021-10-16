@@ -6,12 +6,11 @@
 /*   By: jlaurent <jlaurent@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/12 12:43:26 by jlaurent          #+#    #+#             */
-/*   Updated: 2021/10/13 15:36:12 by jlaurent         ###   ########.fr       */
+/*   Updated: 2021/10/16 15:20:10 by jlaurent         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include <string.h>
+#include "libft.h"
 
 void	*ft_memmove(void *dst, const void *src, size_t len)
 {

@@ -6,12 +6,10 @@
 /*   By: jlaurent <jlaurent@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/13 11:34:46 by jlaurent          #+#    #+#             */
-/*   Updated: 2021/10/14 16:18:19 by jlaurent         ###   ########.fr       */
+/*   Updated: 2021/10/16 15:22:09 by jlaurent         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include <string.h>
 #include "libft.h"
 
 size_t	ft_strlcat(char *dest, const char *src, size_t destsize)

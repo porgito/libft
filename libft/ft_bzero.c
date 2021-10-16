@@ -6,12 +6,11 @@
 /*   By: jlaurent <jlaurent@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/12 11:40:54 by jlaurent          #+#    #+#             */
-/*   Updated: 2021/10/13 12:39:13 by jlaurent         ###   ########.fr       */
+/*   Updated: 2021/10/16 15:17:57 by jlaurent         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include <string.h>
+#include "libft.h"
 
 void	ft_bzero(void *str, size_t n)
 {

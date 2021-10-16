@@ -6,12 +6,10 @@
 /*   By: jlaurent <jlaurent@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/12 15:39:46 by jlaurent          #+#    #+#             */
-/*   Updated: 2021/10/14 16:20:36 by jlaurent         ###   ########.fr       */
+/*   Updated: 2021/10/16 15:22:23 by jlaurent         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include <string.h>
 #include "libft.h"
 
 int	ft_len(char *s)
