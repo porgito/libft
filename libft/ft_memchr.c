@@ -6,7 +6,7 @@
 /*   By: jlaurent <jlaurent@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/14 14:04:23 by jlaurent          #+#    #+#             */
-/*   Updated: 2021/10/16 15:19:06 by jlaurent         ###   ########.fr       */
+/*   Updated: 2021/10/22 16:04:19 by jlaurent         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,17 +16,21 @@ void	*ft_memchr(const void *s, int c, size_t n)
 {
 	size_t	i;
 	char	*str;
+	char	t;
 
+	t = (char) c;
 	i = 0;
+	if (!n)
+		return (0);
 	str = (char *) s;
 	while (i < n)
 	{
-		if (str[i] == c)
+		if (str[i] == t)
 			return (str + i);
 		else
 			i++;
 	}
-	if (c == 0)
+	if (t == 0)
 		return (str + i);
 	return (0);
 }
