@@ -34,7 +34,7 @@ int	count(char const *s, int i, char c)
 	int	l;
 
 	l = 0;
-	while (s[i] != c)
+	while (s[i] != c && s[i] != '\0')
 	{
 		l++;
 		i++;
